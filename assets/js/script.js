@@ -49,11 +49,8 @@
 // console.log(document.querySelector("h1").closest(".container"));
 
 let sidebar=document.querySelector(".sidebar");
-
 let openIcon=document.querySelector(".sidebar .open-icon");
-
 let closeIcon=document.querySelector(".sidebar .close-icon");
-
 
 openIcon.addEventListener("click", function(){
     sidebar.classList.remove("move-sidebar")

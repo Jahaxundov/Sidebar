@@ -1,10 +1,9 @@
 "use strict"
 
-// let addBtn = document.querySelector("button")
-// let inputText = document.querySelector("input")
-// let ul = document.querySelector("ul")
-
-// let span=document.querySelector(".text-all .error-message")
+// let addBtn = document.querySelector("button");
+// let inputText = document.querySelector("input");
+// let ul = document.querySelector("ul");
+// let span = document.querySelector(".text .error-message");
 
 // addBtn.addEventListener("click", function () {
 //     if (inputText.value.trim() == "") {
@@ -22,25 +21,32 @@
 //     li.append(i);
 //     inputText.value = "";
 
-
 //     i.onclick = function () {
 //         li.remove();
 //     }
-
 // })
 
-
-// console.log(document.querySelector("h1").parentNode.parentNode);
-
+// console.log(document.querySelector("h1"));
+// console.log(document.querySelector("h1").parentNode);
+// console.log(document.querySelector("h1").parentNode.parentNode.parentNode);
 // console.log(document.querySelector("h1").nextElementSibling);
+// console.log(document.querySelector("h1").nextElementSibling.nextElementSibling);
+// console.log(document.querySelector("h1").parentNode.previousElementSibling);
+// console.log(
+//   document.querySelector("h1").parentNode.previousElementSibling.children
+// );
 
-// console.log(document.querySelector("h1").parentNode.previousElementSibling.firstElement.innerText);
+// console.log(
+//   document.querySelector("h1").parentNode.previousElementSibling.children[0]
+//     .innerText
+// );
 
-// console.log(document.querySelector("h1").closest("container"));
+// console.log(
+//   document.querySelector("h1").parentNode.previousElementSibling
+//     .firstElementChild.innerText
+// );
 
-
-
-
+// console.log(document.querySelector("h1").closest(".container"));
 
 let sidebar=document.querySelector(".sidebar");
 

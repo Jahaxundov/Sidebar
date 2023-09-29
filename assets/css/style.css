@@ -1,17 +1,3 @@
-/* li{
-    position: relative;
-}
-i{
-    position: absolute;
-    top:  10px;
-    right:30px;
-}
-
-span{
-   display: block;
-   color: red;
-} */
-
 .sidebar{
     width: 300px;
     height: 100vh;
@@ -35,9 +21,7 @@ span{
     cursor: pointer;
     transition: all 0.5s;
 }
-.sidebar i:hover{
-    color: black;
-}
+
 .sidebar ul{
     margin-top: 50px;
     list-style: none;
@@ -47,6 +31,11 @@ span{
     font-size: 30px;
     font-weight:800 ;
 }
+
+.sidebar i:hover{
+    color: black;
+}
+
 .sidebar ul li a{
 text-decoration: none;
 color: white;
